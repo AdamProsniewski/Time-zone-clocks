@@ -6,8 +6,8 @@ window.setInterval(function () {
     minutes.style.transform = `rotate(${date.getMinutes() / 60 * 360}deg)`;
     const seconds = document.getElementById("left").querySelector('.seconds');
     seconds.style.transform = `rotate(${date.getSeconds() / 60 * 360}deg)`;
-        if (date.getHours() == 10 && date.getMinutes() == 30) {
-        alert("Budzik 10:30!!!")
+        if (date.getHours() == 10 && date.getMinutes() == 30) { //Set hours and minutes for the alarm
+        alert("Budzik 10:30!!!") //Change the alert message
     }
 
 }, 1000);
@@ -15,7 +15,7 @@ window.setInterval(function () {
 window.setInterval(function () {
     const date = new Date();
     var i = date.getHours();
-    var hr = (i - 2);
+    var hr = (i - 2); //Add or substract hours from your current timezone to change the clock's time zone
     const hours = document.getElementById("middle").querySelector('.hours')
     hours.style.transform = `rotate(${hr / 12 * 360}deg)`;
     const minutes = document.getElementById("middle").querySelector('.minutes');
