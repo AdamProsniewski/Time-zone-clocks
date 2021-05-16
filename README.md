@@ -12,7 +12,7 @@
 
 * [Features](#features)
 
-* [Screenshots](#screenshots)
+* [Screenshot](#screenshot)
 
 * [Setup](#setup)
 
@@ -82,14 +82,14 @@ or edit all the files in an editor of your choice (for example: Visual Studio Co
 
 
 ## Usage
-Setting the alarm for your time zone in the .js file
+**Setting the alarm for your time zone in the .js file**
 
 ```javascript
 
 if (date.getHours() == 10 && date.getMinutes() == 30) { //Set hours and minutes for the alarm
         alert("Budzik 10:30!!!") //Change the alert message
 ```
-Changing the clock's time zone 
+**Changing the clock's time zone**
 
 ```javascript
     const date = new Date();
@@ -97,7 +97,7 @@ Changing the clock's time zone
     var hr = (i - 2); //Add or substract hours from your current timezone to change the clock's time zone
 ```
 
-To add an another clock:
+**To add an another clock:**
 1. Create a new div in the body section of the .html file with the same elements inside as all the other clocks and assign an id to it
 2. Add a title to your clock
 3. Create a new function in the .js file by copying and pasting any of the existing functions.
