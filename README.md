@@ -78,7 +78,7 @@ All of them show current time in their respective time zone
 ## Setup
 
 You can open the index.html file with any web browser to view the application,
-or edit all the files in an editor of your choice (for example: Visual Studio Code)
+or edit all the files in an editor of your choice (for example: Visual Studio Code).
 
 
 ## Usage
